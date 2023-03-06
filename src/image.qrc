@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/imga">
+        <file>img/pika.jpeg</file>
+        <file>img/kavai_1.jpeg</file>
+        <file>img/kavai_2.jpeg</file>
+        <file>img/kavai_3.png</file>
+    </qresource>
+</RCC>
