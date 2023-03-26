@@ -58,5 +58,5 @@ clean:
 rebuild: clean all
 	
 style:
-	clang-format -style=Google -n *.c *.h *.cpp
+	cd SmartCalc && clang-format -style=Google -n *.c *.h *.cpp
 

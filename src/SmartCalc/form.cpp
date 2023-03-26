@@ -65,8 +65,6 @@ void Form::slot(QString a, QString Xmin, QString Xmax, QString Ymin,
     ui->graf->yAxis->setRange(MinY, MaxY);
 
     ui->graf->replot();
-  } else {
-    ui->statusBar->setText("fail");
   }
 }
 
