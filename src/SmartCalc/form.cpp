@@ -39,11 +39,8 @@ void Form::slot(QString a, QString Xmin, QString Xmax, QString Ymin,
 
       if (error && Y <= MaxY && Y >= MinY) {
         x[i] = X;
-        ui->statusBar->setText("success");
         y[i] = Y;
         i++;
-      } else {
-        ui->statusBar->setText("fail");
       }
     }
     ui->graf->clearGraphs();
@@ -57,11 +54,6 @@ void Form::slot(QString a, QString Xmin, QString Xmax, QString Ymin,
 
     ui->graf->xAxis->setRange(MinX, MaxX);  //Для оси Ox
 
-    //    double minY = y[0], maxY = y[0];
-    //    for (int i = 1; i < N; i++) {
-    //      if (y[i] < minY) minY = y[i];
-    //      if (y[i] > maxY) maxY = y[i];
-    //    }
     ui->graf->yAxis->setRange(MinY, MaxY);
 
     ui->graf->replot();
