@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui printsupport
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -12,21 +12,28 @@ SOURCES += \
     creditwindow.cpp \
     defoltwindow.cpp \
     depositwindow.cpp \
+    form.cpp \
     main.cpp \
     mainwindow.cpp \
+    new.c \
+    qcustomplot.cpp \
     resultCredit.c
 
 HEADERS += \
     creditwindow.h \
     defoltwindow.h \
     depositwindow.h \
+    form.h \
     mainwindow.h \
+    new.h \
+    qcustomplot.h \
     resultCredit.h
 
 FORMS += \
     creditwindow.ui \
     defoltwindow.ui \
     depositwindow.ui \
+    form.ui \
     mainwindow.ui
 
 # Default rules for deployment.
